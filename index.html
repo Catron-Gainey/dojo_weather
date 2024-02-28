@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-nav">
+            <h1>DojoWeather</h1>
+            <div class="cities">
+                <ul>
+                    <li><a onclick="alert('Loading weather report')" href="#">Burbank</li></a>
+                    <li><a onclick="alert('Loading weather report')" href="#">Chicago</li></a>
+                    <li><a onclick="alert('Loading weather report')" href="#">Dallas</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="bot-nav">
+            <h1>San Jose</h1>
+            <div class="temp-control">
+                <p>Show temperature in </p>
+                <select name="temp" id="temp">
+                    <option value="C">C°</option>
+                    <option value="F" onclick="">F°</option>
+                </select>
+            </div>
+        </div>
+        <div class="main">
+            <div class="box-1">
+                <div class="box-1-top">
+                    <h1>Today</h1>
+                    <img src="some_rain.png" alt="some rain">
+                    <p>Some rain</p>
+                </div>
+                <div  class="box-1-bot">
+                    <h1 id="one" class="red">24°</h1>
+                    <h1 id="two" class="blue">18°</h1>
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="box-2-top">
+                    <h1>Tomorrow</h1>
+                    <img src="some_sun.png" alt="some sun">
+                    <p>Some sun</p>
+                </div>
+                <div class="box-2-bot">
+                    <h1 id="three"class="red">27°</h1>
+                    <h1 id="four" class="blue">19°</h1>
+                </div>
+            </div>
+            <div class="box-3">
+                <div class="box-3-top">
+                    <h1>Friday</h1>
+                    <img src="some_clouds.png" alt="some clouds">
+                    <p>Some clouds</p>
+                </div>
+                <div class="box-3-bot">
+                    <h1 id="five" class="red">21°</h1>
+                    <h1 id="six" class="blue">16°</h1>
+                </div>
+            </div>
+            <div class="box-4">
+                <div class="box-4-top">
+                    <h1>Saturday</h1>
+                    <img src="some_sun.png" alt="some sun">
+                    <p>Some sun</p>
+                </div>
+                <div class="box-4-bot">
+                    <h1 id="seven" class="red">26°</h1>
+                    <h1 id="eight" class="blue">21°</h1>
+                </div>
+            </div>
+        </div>
+        <div class="cookie-jar">
+            <img src="cookie.png" alt="cookie">
+            <div class="jar-mid">
+                <h1>Stop! Cookie time!</h1>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more</a></p>
+            </div>
+            <button onclick="drop()">I accept</button>
+        </div>
+    </div>    
+</body>
+</html>

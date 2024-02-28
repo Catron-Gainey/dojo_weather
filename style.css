@@ -1,0 +1,93 @@
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9fc5f8; 
+    color: white;
+}
+.top-nav h1 {
+    font-size: xx large;
+}
+.cities ul {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 500px;
+    list-style: none;
+    font-size: x-large;
+}
+.cities a {
+    text-decoration: none;
+    color: white;
+}
+.bot-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96.4px;
+    border-bottom: solid black;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: large;
+}
+.temp-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    font-size: large;
+}
+.temp-control select {
+    height: 40px;
+    width: 50px;
+    font-size: medium;
+    margin-left: 10px;
+}
+.main {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.box-1, .box-2, .box-3, .box-4 {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+.cookie-jar {
+    height: 125px;
+    width: 1200px;
+    border: solid blue;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 165px;
+}
+.main img {
+    height: 150px;
+    border-radius: 50%;
+}
+.box-1-bot, .box-2-bot, .box-3-bot, .box-4-bot {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+button {
+    background-color: lightblue;
+    width: 80px;
+    height: 30px;
+    box-shadow: 3px 3px black;
+}
